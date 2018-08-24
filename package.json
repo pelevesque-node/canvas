@@ -1,0 +1,31 @@
+{
+  "name": "@pelevesque/canvas",
+  "version": "1.0.0",
+  "description": "A simple object to draw on an HTML canvas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelevesque/canvas.git"
+  },
+  "keywords": [
+    "canvas",
+    "HTML",
+    "draw",
+    "2D"
+  ],
+  "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelevesque/canvas/issues"
+  },
+  "homepage": "https://github.com/pelevesque/canvas#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}

@@ -10,7 +10,7 @@ https://www.npmjs.com/package/@pelevesque/canvas
 
 ## Example
 
-https://rawgit.com/pelevesque/canvas/master/index.html
+@see index.html
 
 ## Installation
 

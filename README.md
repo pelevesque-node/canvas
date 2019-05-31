@@ -6,7 +6,7 @@ A simple object to draw on an HTML canvas.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/canvas](https://www.npmjs.com/package/@pelevesque/canvas)
+https://www.npmjs.com/package/@pelevesque/canvas
 
 ## Example
 

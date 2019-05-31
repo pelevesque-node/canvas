@@ -48,7 +48,9 @@ https://www.npmjs.com/package/@pelevesque/canvas
 
 ### Initialization
 
-When initializing canvas, you must provide it with the HTML `id` of the canvas you wish to use. Optionally, you may also override some default `params` by passing an object as the second argument.
+When initializing canvas, you must provide it with the HTML `id` of the
+canvas you wish to use. Optionally, you may also override some default `params`
+by passing an object as the second argument.
 
 ```js
 // Initialize canvas without params.

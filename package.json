@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/canvas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple object to draw on an HTML canvas.",
   "main": "index.js",
   "scripts": {

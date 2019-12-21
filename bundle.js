@@ -5,13 +5,13 @@ const Canvas = function (id, options) {
   this.canvas = document.getElementById(id)
   this.context = this.canvas.getContext('2d')
   this.size = {
-    'initial': {
-      'width': this.canvas.width,
-      'height': this.canvas.height
+    initial: {
+      width: this.canvas.width,
+      height: this.canvas.height
     },
-    'current': {
-      'width': this.canvas.width,
-      'height': this.canvas.height
+    current: {
+      width: this.canvas.width,
+      height: this.canvas.height
     }
   }
   this.images = {}
@@ -48,7 +48,7 @@ Canvas.prototype.clear = function () {
 }
 
 Canvas.prototype.loadImage = function (src) {
-  if (!this.images.hasOwnProperty(src)) {
+  if (!Object.prototype.hasOwnProperty.call(this.images, src)) {
     const image = new Image()
     image.src = src
     this.images[src] = image
@@ -207,15 +207,15 @@ Canvas.prototype.getMousePosition = function () {
 }
 
 Canvas.prototype._defaultOptions = {
-  'globalCompositeOperationDefault': 'source-over',
-  'backgroundColor': 'none',
-  'backgroundImage': 'none',
-  'color': '#000000',
-  'border': 'none',
-  'font': '16px Arial',
-  'textAlign': 'center',
-  'textBaseline': 'middle',
-  'cursor': 'default'
+  globalCompositeOperationDefault: 'source-over',
+  backgroundColor: 'none',
+  backgroundImage: 'none',
+  color: '#000000',
+  border: 'none',
+  font: '16px Arial',
+  textAlign: 'center',
+  textBaseline: 'middle',
+  cursor: 'default'
 }
 
 window.Canvas = Canvas

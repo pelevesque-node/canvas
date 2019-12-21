@@ -60,23 +60,23 @@ const canvas = new Canvas(id)
 ```js
 // Initialize canvas with overriding some params.
 const canvas = new Canvas(id, {
-    'backgroundColor' : '#555555',
-    'color'           : '#ffffff'
+  backgroundColor: '#555555',
+  color: '#ffffff'
 })
 ```
 
 ```js
 // List of default params.
 defaultParams = {
-  'globalCompositeOperationDefault': 'source-over',
-  'backgroundColor': 'none',
-  'backgroundImage': 'none',
-  'color': '#000000',
-  'border': 'none',
-  'font': '16px Arial',
-  'textAlign': 'center',
-  'textBaseline': 'middle',
-  'cursor': 'default'
+  globalCompositeOperationDefault: 'source-over',
+  backgroundColor: 'none',
+  backgroundImage: 'none',
+  color: '#000000',
+  border: 'none',
+  font: '16px Arial',
+  textAlign: 'center',
+  textBaseline: 'middle',
+  cursor: 'default'
 }
 ```
 
@@ -86,8 +86,8 @@ Sets options.
 
 ```js
 const options = {
-  'backgroundColor' : '#336600',
-  'border' : '1px solid #006600',
+  backgroundColor: '#336600',
+  border: '1px solid #006600',
 }
 canvas.setOptions(options)
 ```

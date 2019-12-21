@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/pelevesque/canvas#readme",
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "^14.3.1"
   }
 }
